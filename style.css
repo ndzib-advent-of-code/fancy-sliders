@@ -54,7 +54,9 @@
     height: 70px;
 }
 
-.lines:nth-child(4) > * {
+.lines:nth-child(4) > *, .lines:nth-child(5) > * {
+
+    /* position */
     background-color: rgba(136, 173, 255, .4);
 }
 
@@ -109,7 +111,7 @@
     position: relative;
 
     /* position */
-    flex: 0 0 50%;
+    flex: 0 0 30%;
     background-color: rgb(3, 3, 61);
 }
 
@@ -276,17 +278,18 @@
     height: 100%;
     border-radius: inherit;
     overflow: hidden;
-
-    /* position */
-    /* width: 50%; */
 }
 
 .filled-primary {
     background-color: rgb(3, 3, 61);
+
+    /* position */
     width: 40%;
 }
 
 .filled-warn {
     background-color: rgb(211, 99, 99);
+    
+    /* position */
     width: 60%;
 }
